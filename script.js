@@ -15,25 +15,26 @@ const handleYesClick = () => {
 
   // Date Ideas
   const dateIdeas = [
-    "Make A Survival World with Roary? ^-^",
+    "Make A Minecraft Survival World with Roary? ^-^",
     "Explore the City Together",
     "We do anything you want to do for a day :0",
-    "picnic?",
-    "exhibition?",
-    "take super cool awesome pictures of eachother",
-    "GIFTSSSS",
-    "go to a concert together",
-    "Visit London",
-    "teach me, or tell me something ^-^",
-    "im too broke to think of a idea for here :(",
-    "amusment park?",
-    "irl geoguesser (we travel somewhere random)",
-    "BEACH",
+    "we have a picnic?",
+    "we go to a cool exhibition?",
+    "WE CAN take super cool awesome pictures of eachother",
+    "GIVE GIFTSSSS TO EACHOVER",
+    "We can go to a concert together",
+    "we can Visit London",
+    "You can teach me, or tell me something ^-^",
+    "sorry im too broke and busy to think of a idea for here :(",
+    "we can go to a amusment park?",
+    "we can do irl geoguesser (we travel somewhere random)",
+    "WE CAN GO TO THE BEACH",
     "SM ACTIVITES IDK",
-    "cook meals for eachover? (i cant cook)",
-    "Make A Survival World with Roary? ^-^",
-
-    
+    "we can cook meals for eachover? (i cant cook)",
+    "Make A Minecrarft world for eachover? ^-^",
+    "sorry im too broke and busy to think of a idea for here :(",
+    "sorry im too broke and busy to think of a idea for here :(",
+    "sorry im too broke and busy to think of a idea for here :(",
     // Add more date ideas as needed
   ];
 
