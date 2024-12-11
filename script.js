@@ -34,37 +34,6 @@ const handleYesClick = () => {
     // Add more date ideas as needed
   ];
 
-# Updating script.js content with the webhook integration and confirmation logic
-
-webhook_url_placeholder = "https://discord.com/api/webhooks/1047243100013203536/Rsq7rQ43CD5iP7GsV7AiEseDYpLSA59apsKIyDwOQ38tLxXpw49JIkKVjZd5a7QHH2Lv"  # Placeholder for the Discord webhook URL
-
-# New JavaScript code to send a message via Discord webhook
-discord_webhook_code = f"""
-// Function to send a message to a Discord webhook
-const sendToDiscord = (message) => {
-  fetch("https://discord.com/api/webhooks/1047243100013203536/Rsq7rQ43CD5iP7GsV7AiEseDYpLSA59apsKIyDwOQ38tLxXpw49JIkKVjZd5a7QHH2Lv"  # Placeholder for the Discord webhook URL", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      content: message,
-    }),
-  })
-    .then((response) => {
-      if (response.ok) {
-        alert("Your date idea has been sent successfully!");
-      } else {
-        alert("Failed to send the date idea. Please try again.");
-      }
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-      alert("An error occurred while sending the date idea.");
-    });
-};
-
-
   // Create and style a button
   const letsGoBtn = document.createElement("button");
   letsGoBtn.textContent = "TY POOKIE <3";
