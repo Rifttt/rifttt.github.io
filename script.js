@@ -24,12 +24,15 @@ const handleYesClick = () => {
     "GIFTSSSS",
     "go to a concert together",
     "Visit London",
+    "teach me, or tell me something ^-^",
     "im too broke to think of a idea for here :(",
     "amusment park?",
     "irl geoguesser (we travel somewhere random)",
     "BEACH",
     "SM ACTIVITES IDK",
     "cook meals for eachover? (i cant cook)",
+    "Make A Survival World with Roary? ^-^",
+
     
     // Add more date ideas as needed
   ];
@@ -55,7 +58,7 @@ const handleYesClick = () => {
     const randomIndex = Math.floor(Math.random() * dateIdeas.length);
     const selectedDateIdea = dateIdeas[randomIndex];
 
-    alert(`sooo how about we - ${selectedDateIdea}`);
+    alert(`sooo how about we ${selectedDateIdea}`);
   });
 
   // Replace yesBtn with the new letsGoBtn
