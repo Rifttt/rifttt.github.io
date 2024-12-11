@@ -58,7 +58,7 @@ const handleYesClick = () => {
     const randomIndex = Math.floor(Math.random() * dateIdeas.length);
     const selectedDateIdea = dateIdeas[randomIndex];
 
-    alert(`sooo how about we ${selectedDateIdea}`);
+    alert(`sooo how about-${selectedDateIdea}`);
   });
 
   // Replace yesBtn with the new letsGoBtn
